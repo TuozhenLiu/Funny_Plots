@@ -8,4 +8,4 @@
 
 ![](iris_plot/line.png)
 
-<img src=ibond_alluvial/alluvial.png width = 60%/>
+<img src=ibond_alluvial/alluvial.png width = 80%/>
