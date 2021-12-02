@@ -40,7 +40,8 @@ df %>%
       
       # Zebra color for readability; will change colors of labels in Inkscape later
       scale_fill_manual(values = c('0' = '#2A7FFF', '1' = '#5599FF')) +
-      labs(x="", y="", caption='Source: American Time Use Survey') +
+      labs(x="", y="", caption='Source: American Time Use Survey',
+           title = "Peak time of day for sports and leisure") +
       # theme_henrik(grid='', legend.position='none') +
       theme(axis.ticks.x = element_line(size=0.3), legend.position='none',
             panel.grid.major=element_blank())
