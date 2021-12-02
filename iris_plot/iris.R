@@ -1,4 +1,4 @@
-source("FUNCS.R")
+source("~/FUNCS.R")
 
 data("iris")
 palette <- c(
