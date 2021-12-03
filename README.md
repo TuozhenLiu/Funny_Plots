@@ -11,3 +11,5 @@
 <img src=ibond_alluvial/alluvial.png width = 80%/>
 
 <img src=ribbon/ribbon.png width = 100%/>
+
+<img src=candidate/rounded_bar.png width = 100%/>
