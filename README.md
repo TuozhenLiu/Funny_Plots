@@ -15,3 +15,5 @@
 <img src=candidate/rounded_bar.png width = 100%/>
 
 <img src=lm_diagnosis/lm_diagnosis.png width = 100%/>
+
+<img src=treemap/treemap.png width = 100%/>
