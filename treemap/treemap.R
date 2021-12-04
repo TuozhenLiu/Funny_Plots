@@ -1,13 +1,3 @@
-df1 <- read.csv('https://raw.githubusercontent.com/plotly/datasets/718417069ead87650b90472464c7565dc8c2cb1c/sunburst-coffee-flavors-complete.csv')
-
-fig <- plot_ly(
-  type='treemap',
-  ids=df1$ids,
-  labels=df1$labels,
-  parents=df1$parents,
-  domain=list(column=0))
-fig
-
 knowledge_graph <- read.xlsx("~/Nutstore Files/数据/合并/知识图谱/知识图谱.xlsx")
 
 df <- data.frame(ids = paste0("CICS1-", unique(knowledge_graph$CICS1)), labels = unique(knowledge_graph$CICS1), parents = "CICS")
