@@ -1,19 +1,19 @@
-# Funny_Plots
+# [My Website](https://tuozhenliu.github.io/Funny_Plots/)
 
-![](iris_plot/point.png)
+![](code/iris_plot/point.png)
 
-![](iris_plot/hist.png)
+![](code/iris_plot/hist.png)
 
-![](iris_plot/box.png)
+![](code/iris_plot/box.png)
 
-![](iris_plot/line.png)
+![](code/iris_plot/line.png)
 
-<img src=ibond_alluvial/alluvial.png width = 80%/>
+<img src=code/ibond_alluvial/alluvial.png width = 80%/>
 
-<img src=ribbon/ribbon.png width = 100%/>
+<img src=code/ribbon/ribbon.png width = 100%/>
 
-<img src=candidate/rounded_bar.png width = 100%/>
+<img src=code/candidate/rounded_bar.png width = 100%/>
 
-<img src=lm_diagnosis/lm_diagnosis.png width = 100%/>
+<img src=code/lm_diagnosis/lm_diagnosis.png width = 100%/>
 
-<img src=treemap/treemap.png width = 100%/>
+<img src=code/treemap/treemap.png width = 100%/>
