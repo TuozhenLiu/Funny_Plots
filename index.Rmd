@@ -1,0 +1,11 @@
+---
+title: "A playground for visualization"
+author:
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+This is a playground for visualization. Welcome to contribute funny plots！

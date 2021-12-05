@@ -1,0 +1,15 @@
+name: "R Markdown Websites Tutorial"
+navbar:
+  title: "HOME"
+  left:
+    - text: "Beautiful Themes"
+      href: Beautiful-Themes.html
+    - text: "Funny Visualization"
+      href: Funny-Visualization.html
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+#    include:
+#      after_body: _footer.html

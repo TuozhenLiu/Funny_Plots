@@ -1,0 +1,49 @@
+---
+title: "Remap"
+author: "Tuozhen Liu"
+date: "12/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(REmap)
+library(magrittr)
+
+set.seed(125)
+origin = rep("北京",10)
+destination = c('上海','广州','大连','南宁','南昌',
+                '拉萨','长春','包头','重庆','常州')
+dat = data.frame(origin,destination)
+out = remap(dat,title = "REmap实例数据",subtitle = "theme:Dark")
+
+# out
+# out@content
+# a = htmltools::includeHTML("~/Desktop/aaa.html")
+# print(htmltools::includeHTML("~/Desktop/aaa.html"))
+# htmlwidgets::createWidget("html",x=a)
+```
+
+````{=html}
+
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('~/Desktop/aaa.html')
+```
+````
+
+
+```{r}
+x = htmltools::includeHTML("~/Desktop/aaa.html")
+x
+```
+
+```{r}
+y = htmltools::HTML('<script type="text/javascript">
+document.write("Hello World!")
+</script>')
+y
+```
+
